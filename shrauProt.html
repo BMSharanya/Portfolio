@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+
+    <style>
+         body {
+            background: linear-gradient(to right, #a6bdeb, #c7a6de);
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 20px;
+            overflow-x: hidden;
+         }
+
+
+         header {
+           padding: 8px;
+            text-align: left;
+            color: rgb(67, 7, 156);
+            font-size: 18px;
+            margin-top: -28px;
+         }
+
+         nav {
+            text-align: center;
+            padding: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            margin: -30px;
+            text-align: right;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #6610f2;
+        }
+
+
+        .sec {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(to right, #e2d499, #e8f6a0);
+            min-height: 550px;
+            border-radius: 10px;
+            margin-top: 33px;
+            margin-left: 70px;
+            margin-right: 52px;
+            padding: 20px;
+            box-sizing: border-box;
+            box-shadow: 30px 40px 10px rgba(20, 1, 1, 0.1);
+        }
+
+        .content {
+            color: rgb(67, 7, 156);
+            padding-right: 20px;
+            flex: 1;
+            padding-left: 150px;
+        }
+
+        .content h1{
+            font-size: 50px;
+            font-style:normal;
+        }
+
+        .content h3{
+              font-size: 20px;
+              font-style: italic;
+        }
+
+        .image {
+            display: flex;
+            justify-content: flex-end; /* Aligns the image to the right end */
+            flex: 1;
+        }
+
+        .image img {
+            height: 500px;
+            width: 400px;
+            border-radius: 10px;
+        }
+
+        /* button:active{
+                background-color: blue;
+                color: gold;
+        } */
+
+
+        button:active {
+    color: rgb(62, 12, 98);
+    transform: scale(0.98); /* Slightly reduce size to show pressing effect */
+    transition: background-color 0.2s, color 0.2s, transform 0.2s; /* Smooth transition */
+}
+
+
+#about{
+            padding: 50px;
+            text-align: center;
+            color: rgb(67, 7, 156);
+            font-size: 18px;
+        }
+
+        #about p{
+            color: black;
+        }
+
+
+        .project {
+    text-align: center;
+    background: #fff;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 1000px; /* Increase the max-width here */
+}
+
+
+
+        .project h3 {
+            color: #007bff;
+        }
+
+
+        
+
+        .skill {
+    text-align: center;
+    background: #fff;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px; /* Increase the max-width here */
+}
+      
+#contact{
+    text-align: center;
+}
+
+footer {
+            background: linear-gradient(to right, #007bff, #6610f2);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    
+<header>
+    <h1>Portfolio</h1>
+</header>
+
+<nav> 
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="sec">
+    <div class="content">
+        <h3>Welcome to sharanya.com</h3>
+        <h1>Sharanya B M</h1>
+        <h3>A computer science and engineering graduate</h3>
+        <button style=" font-size: 25px; color: rgb(65, 7, 116); background-color: rgb(206, 206, 248); border-radius: 10px;">
+            Resume
+        </button>
+          </div>
+
+    <div class="image">
+        <img src="https://career-intelligence.com/wp-content/uploads/2014/01/five-aptitudes-female.jpg" alt="image">
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+     <p> A fresher graduate with a strong foundation in core Java, object-oriented programming (OOP), and SQL databases. Possesses excellent problem-solving skills and a keen interest in exploring new technologies. While lacking formal work experience, adapts quickly to new challenges, works effectively in team environments, and is highly motivated to grow and develop in the field of software development. An ideal candidate for entry-level roles such as Java Developer or Software Engineer.</p>
+ 
+  </section>
+
+
+  <section id="projects">
+    <h2 style="text-align: center;  color: rgb(67, 7, 156);">Projects</h2>
+    <div class="project">
+        <h3>Cyberbullying detection using machine learning</h3>
+        <p>Cyberbullying detection using machine learning involves analyzing online interactions to identify harmful behaviors like harassment and abuse. By training algorithms on text, social media posts, and user interactions, it can automatically flag or predict instances of cyberbullying for further review or intervention.</p>
+    </div>
+    <div class="project">
+        <h3>Payroll management system</h3>
+        <p>
+            A Payroll Management System automates the process of calculating employee salaries, deductions, bonuses, and taxes. It streamlines payroll processing, ensuring accuracy, compliance, and timely payments to employees.</p>
+    </div>
+</section>
+
+
+<section id="skills">
+    <h2 style="text-align: center;  color: rgb(67, 7, 156);">Skills</h2>
+    <div class="skill">
+        <h3>programming Languages</h3>
+        <p>JAVA</p>
+        <h3>Web development</h3>
+        <p>HTML, CSS, JavaScript</p>
+        <h3>Database Management</h3>
+        <p>MYSQL</p>
+        <h3>Tools</h3>
+        <p>ECLIPSE, VSCODE, MYSQL</p>
+    </div>
+    </section>
+
+    <section id="contact" >
+        <h2 style="color: rgb(67, 7, 156);">Contact</h2>
+        <p>Email: your.email@example.com</p>
+        <p>LinkedIn: <a href="#">Your Profile</a></p>
+        <p>GitHub: <a href="#">Your Profile</a></p>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2025 Sharanyabm. All Rights Reserved.</p>
+    </footer>
+
+
+</body>
+</html>
